@@ -16,6 +16,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
 - File: stat_maintain.py - when run will load already collected price statistics and will maintain them
 - For troubleshooting use the error logs: "CurrentPrice.error.log" and "Stat.error.log"
 
+
 # Usage:
 - Install the cbpro library with command:<br>
 <i>pip intall cbpro</i>
