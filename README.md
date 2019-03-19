@@ -9,6 +9,9 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
 </blockquote>
 
 
+# Under construction... Still adding the files and their descriptions
+
+
 # Information:
 - Python 2.7 compatible
 - File: current_price.py - when run it will display the current prices for BTC, LTC and ETH
