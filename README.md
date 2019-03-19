@@ -9,9 +9,6 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
 </blockquote>
 
 
-# Under construction... Still adding the files and their descriptions
-
-
 # Information:
 - Python 2.7 compatible
 - File: current_price.py - when run it will display the current prices for BTC, LTC and ETH
@@ -36,3 +33,5 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
 - - *parameters:
 - - - stat_total_time determines how long the statistics will be in seconds. For example, setting it to 604800 will collect 7 days worth of statistics
 - - - stat_refresh_rate determines the refresh rate in seconds
+
+... Under construction. Still adding filex and their descriptions.
