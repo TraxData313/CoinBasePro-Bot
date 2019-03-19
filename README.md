@@ -12,3 +12,12 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
 - Python 3 compatible
 
 # Usage:
+- Install the cbpro library with command:<br>
+<i>pip intall cbpro</i>
+- Price Monitor: 
+- - Displays and maintains files with the current price
+- - Download file "current_price.py", open command prompt and run the script:
+- - <i>python current_price.py</i>
+- Price statistics generator:
+- - Initializes and maintains the price statistics files
+- - Open the file with txt editor and set the 
