@@ -34,4 +34,4 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
 - - - stat_total_time determines how long the statistics will be in seconds. For example, setting it to 604800 will collect 7 days worth of statistics
 - - - stat_refresh_rate determines the refresh rate in seconds
 
-... Under construction. Still adding files and their descriptions. If you need help with something specific (like: how to place or cancel order, how to check ballance...) in the mean time, please feel free to contact me @ antongeorgiev313@gmail.com
+... Under construction. I still need to remove personal data from the files and then add them. If you need help with something specific in the mean time (like: how to place or cancel order, how to check ballance...), please feel free to contact me @ antongeorgiev313@gmail.com
