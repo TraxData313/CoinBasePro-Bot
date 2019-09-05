@@ -109,11 +109,11 @@ else:
 
 # - pickle out file:
 pickle_out_file = 'Bot_{}-{}x{}_EFr{}_Dr{}_ChMark{}.pickle'.format(bot.input_size,
-                                                      bot.hidden_count,
-                                                      bot.hidden_size,
-                                                      bot.max_EF_resist,
-                                                      bot.D_resist,
-                                                      bot.is_chem_marking)
+                                                                  bot.hidden_count,
+                                                                  bot.hidden_size,
+                                                                  bot.max_EF_resist,
+                                                                  bot.D_resist,
+                                                                  bot.is_chem_marking)
 print("Picke out file:", pickle_out_file)
 saveBot(bot, pickle_out_file)
 
@@ -377,6 +377,8 @@ for epoch in range(train_epochs):
             print()
             print("END BALLANCE VECTOR:")
             print(ending_ballance_vector)
+            if len(ending_ballance_vector) > 0:
+                print("Average end ballance:", sum(ending_ballance_vector)/len(ending_ballance_vector))
             println(3)
             print("TRAINING...")
             print(bot)
@@ -666,34 +668,31 @@ if is_testing == 1:
 # ENDING TRAIN AND TEST:
 # - Ending print:
 println(4)
-
 print()
-print("LAST TRAIN RESULTS:")
+print("Used data:")
+print("- Traing data:", train_file)
+print("- Minutes per cycle:", minutes_per_cycle)
 print("Epoch#", epoch+1)
+print()
+print("END BALLANCE VECTOR:")
+print(ending_ballance_vector)
 print("Deals made:", deals_made_vector[-1])
-print("Total reward:", total_reward_vector[-1])
-print("Total profit:", profit_vector[-1])
-print("Ending ballance:", ending_ballance_vector[-1])
-
+print("Total reward received:", total_reward_vector[-1])
+print("Average end ballance:", sum(ending_ballance_vector)/len(ending_ballance_vector))
 if is_testing == 1:
     print()
     print("TEST RESULTS:")
+    print("- Test data  :", test_file)
     print("- Deals made:", deals)
     print("- Total reward:", total_reward)
     print("- Total profit:", profit)
     print("- Ending ballance:", ballance)
-
-print()
-print("Used data:")
-print("- Traing data:", train_file)
-print("- Test data  :", test_file)
-print("- Minutes per cycle:", minutes_per_cycle)
-print("- Reward type:", reward_type)
-print("- db_mult (for reward_type 1 and 3):", db_mult)
 print()
 print("Bot params:")
 print(bot)
 print("- Is chem marking:", bool(bot.is_chem_marking))
+print("- Reward type:", reward_type)
+print("- db_mult (for reward_type 1 and 3):", db_mult)
     
     
 # - View the data:
