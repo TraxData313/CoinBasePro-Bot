@@ -12,9 +12,9 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
 # Information:
 - Python 2.7 compatible
 - File: current_price.py - when run it will display the current prices for BTC, LTC and ETH
-- File: stat_create.py - will gather the desired amount of price statistics. Once done, it will create the price statistic files and will maintain them
+- File: stat_create.py - will gather specified amount of price statistics. Once done, it will create the price statistic files and will maintain them (do on first run/if no older stats already exist, otherwise use the stat_maintain.py)
 - File: stat_maintain.py - when run will load already collected price statistics and will maintain them
-- For troubleshooting use the error logs: "CurrentPrice.error.log" and "Stat.error.log"
+- For troubleshooting use the error logs that will be generated: "CurrentPrice.error.log" and "Stat.error.log"
 
 
 # Usage:
